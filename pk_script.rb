@@ -20,6 +20,8 @@ when 'stg'
   url = 'https://stg.verticalresponse'
 when 'beta'
   url = 'https://beta.skadeedle'
+when 'generic'
+  url = 'SERVER_URL'
 else
   puts "Woah there, I've heard of beta and stg, but what in the sam hill do you mean by '#{url_chooser}'?"
   exit 2

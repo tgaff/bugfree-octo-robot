@@ -1,0 +1,26 @@
+GIT
+  remote: git@github.com:tgaff/rr.git
+  revision: ba4214f5a430c344805615f6037b3e44e2f6b94d
+  branch: tg/rspec_deprecation
+  specs:
+    rr (1.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.4)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rr!
+  rspec (= 2.13.0)
